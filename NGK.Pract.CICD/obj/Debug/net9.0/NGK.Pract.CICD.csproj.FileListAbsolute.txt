@@ -1,0 +1,12 @@
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\bin\Debug\net9.0\NGK.Pract.CICD.deps.json
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\bin\Debug\net9.0\NGK.Pract.CICD.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\bin\Debug\net9.0\NGK.Pract.CICD.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.AssemblyInfoInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.AssemblyInfo.cs
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.csproj.CoreCompileInputs.cache
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.sourcelink.json
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\refint\NGK.Pract.CICD.dll
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\NGK.Pract.CICD.pdb
+C:\Users\belov\Desktop\projects\NGK.Pract.CICD\NGK.Pract.CICD\obj\Debug\net9.0\ref\NGK.Pract.CICD.dll

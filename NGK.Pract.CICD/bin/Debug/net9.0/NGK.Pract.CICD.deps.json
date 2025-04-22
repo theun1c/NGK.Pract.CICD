@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "NGK.Pract.CICD/1.0.0": {
+        "runtime": {
+          "NGK.Pract.CICD.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NGK.Pract.CICD/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
