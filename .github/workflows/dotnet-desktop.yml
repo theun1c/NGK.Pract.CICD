@@ -47,8 +47,8 @@ on:
 
 jobs:
   build-and-test:
-    runs-on: ubuntu-latest  # Или windows-latest для .NET Framework
-
+    runs-on: ubuntu-latest
+    
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
@@ -56,7 +56,7 @@ jobs:
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
-        dotnet-version: '9.0.x'  # Укажите вашу версию
+        dotnet-version: '9.0.x'
 
     - name: Restore dependencies
       run: dotnet restore
@@ -64,8 +64,22 @@ jobs:
     - name: Build
       run: dotnet build --configuration Release --no-restore
 
-    - name: Run tests
-      run: dotnet test --configuration Release --no-build --verbosity normal
+    - name: Run tests with coverage
+      run: dotnet test --configuration Release --no-build --verbosity normal --collect:"XPlat Code Coverage" --logger trx
+
+    - name: Publish Test Results
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: Test Results
+        path: |
+          **/*.trx
+          **/coverage.cobertura.xml
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v3
+      with:
+        file: ./**/coverage.cobertura.xml
       
   build:
 
