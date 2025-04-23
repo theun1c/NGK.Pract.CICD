@@ -2,7 +2,7 @@
 
 [![.NET CI](https://github.com/theun1c/NGK.Pract.CICD/actions/workflows/dotnet-desktop.yml/badge.svg)](https://github.com/theun1c/NGK.Pract.CICD/actions)
 
-Библиотека предоставляет методы для обработки строк с полным покрытием юнит-тестами.
+Библиотека предоставляет методы для обработки строк с юнит-тестами.
 
 ## Установка
 
